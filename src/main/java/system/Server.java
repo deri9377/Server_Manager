@@ -5,6 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
 @Entity
 class Server {
 
@@ -12,9 +15,11 @@ class Server {
   private String game;
   private boolean running;
   
+	public Server() {
 
+	}
 
-  	Server(String game) {
+  	public Server(String game) {
   		this.game = game;
   		running = false;
   	}	

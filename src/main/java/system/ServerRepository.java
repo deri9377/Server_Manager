@@ -42,9 +42,10 @@ class ServerRepository {
 		repo.remove(id);
 	}
 
-	public Server update(Server newEmployee, Long id) {
+	public Server update(Server server, Long id) {
 		// TODO Auto-generated method stub
-		return repo.replace(id, newEmployee);
+		server.setId(id);
+		return repo.replace(id, server);
 	}
 
 }

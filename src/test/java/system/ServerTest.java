@@ -1,6 +1,7 @@
 package system;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,14 +9,21 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ServerTest {
 
+	@Autowired
+	private Server server1;
 	
-	private Server server = new Server("Terraria");
+	
+	
 	
 	@Test
-	public void changeServerState() {
-		
-		server.start();
-		assertTrue(server.isRunning());
+	public void testServerStart() {
+		server1.start();
+		assertTrue(server1.isRunning());
 	}
 	
+	@Test
+	public void testServerStop() {
+		server1.stop();
+		assertFalse(server1.isRunning());
+	}
 }
