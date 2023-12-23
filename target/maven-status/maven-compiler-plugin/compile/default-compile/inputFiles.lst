@@ -1,8 +1,8 @@
-/Users/devinriess/Downloads/demo/src/main/java/system/ServerNotFoundException.java
-/Users/devinriess/Downloads/demo/src/main/java/system/InputReader.java
-/Users/devinriess/Downloads/demo/src/main/java/system/ServerApplication.java
-/Users/devinriess/Downloads/demo/src/main/java/system/ServerModelAssembler.java
-/Users/devinriess/Downloads/demo/src/main/java/system/ServerController.java
-/Users/devinriess/Downloads/demo/src/main/java/system/LoadDatabase.java
-/Users/devinriess/Downloads/demo/src/main/java/system/ServerRepository.java
-/Users/devinriess/Downloads/demo/src/main/java/system/Server.java
+/Users/devinriess/Server_Manager/src/main/java/system/ServerController.java
+/Users/devinriess/Server_Manager/src/main/java/system/InputReader.java
+/Users/devinriess/Server_Manager/src/main/java/system/ServerApplication.java
+/Users/devinriess/Server_Manager/src/main/java/system/Server.java
+/Users/devinriess/Server_Manager/src/main/java/system/ServerModelAssembler.java
+/Users/devinriess/Server_Manager/src/main/java/system/LoadDatabase.java
+/Users/devinriess/Server_Manager/src/main/java/system/ServerNotFoundException.java
+/Users/devinriess/Server_Manager/src/main/java/system/ServerRepository.java
