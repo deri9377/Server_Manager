@@ -2,13 +2,11 @@ package system;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Random;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository
 class ServerRepository {
 	
 	private Long employeeCounter = (long) 1;
