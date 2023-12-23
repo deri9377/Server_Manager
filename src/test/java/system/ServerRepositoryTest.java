@@ -17,8 +17,6 @@ public class ServerRepositoryTest {
     @Autowired
     private ServerRepository repository;
 
-    @BeforeEach
-
 
     @Test
     public void saveServerTest() {
