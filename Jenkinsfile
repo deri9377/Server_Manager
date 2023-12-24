@@ -1,5 +1,12 @@
 pipeline {
   agent any
+  agent {
+        docker {
+          // Set both label and image
+          label 'docker'
+          image '3.9.6-eclipse-temurin-17'
+        }
+      }
   tools {
     maven 'Maven-3.9.5' 
   }
