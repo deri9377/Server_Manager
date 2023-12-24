@@ -1,9 +1,9 @@
 pipeline {
   agent {
-        docker {
-            image 'maven:3.9.5-eclipse-temurin-17'
-        }
+    docker {
+          image 'maven:3.9.5-eclipse-temurin-17'
     }
+  }
   tools {
     maven 'Maven-3.9.5' 
   }
@@ -20,7 +20,7 @@ pipeline {
     }
     stage ('Deploy') {
       steps {
-        
+        sh 'mvn clean spring-boot:run'
       }
     }
   }
