@@ -1,4 +1,4 @@
-package system;
+package system.Controllers;
 
 class ServerNotFoundException extends RuntimeException {
 

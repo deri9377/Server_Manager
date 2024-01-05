@@ -1,4 +1,4 @@
-package system;
+package system.Controllers;
 
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 

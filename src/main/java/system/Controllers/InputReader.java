@@ -1,4 +1,4 @@
-package system;
+package system.Controllers;
 
 import java.io.BufferedReader;
 import java.io.Reader;
